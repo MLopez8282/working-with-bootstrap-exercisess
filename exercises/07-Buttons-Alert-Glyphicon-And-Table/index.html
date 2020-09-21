@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<script src="https://kit.fontawesome.com/4831e94a15.js" crossorigin="anonymous"></script>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
-
-<body>
-
-</body>
-
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6">
+					<h5>Is hard to remember all the bootstrap elements</h5>
+					<p>Please replicate this exact same image using the Bootstrap elements: Button, Alert, Glyphicon and table</p>
+					<button type="button" class="btn btn-success btn-sm">Danger</button>
+					<button type="button" class="btn btn-danger btn-sm">Danger</button>
+				</div>
+				<div class="col-6">
+					<div class="alert alert-warning" role="alert">
+						<h4 class="alert-heading">Well done!</h4>
+						<p>
+							<i class="fas fa-exclamation-circle"></i>Aww yeah, you successfully read this important alert message. This example text
+							is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+						</p>
+					</div>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th scope="col">Firstname</th>
+								<th scope="col">Lastname</th>
+								<th scope="col">Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">John</th>
+								<td>Doe</td>
+								<td>john@example.com</td>
+							</tr>
+							<tr>
+								<th scope="row">Mary</th>
+								<td>Moe</td>
+								<td>mary@example.com</td>
+							</tr>
+							<tr>
+								<th scope="row">July</th>
+								<td>Dooley</td>
+								<td>july@example.com</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
